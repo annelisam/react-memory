@@ -1,7 +1,26 @@
 [
     {
-        "id": 1,
-        "name": "xtina",
-        "image": "http://placehold.it/300"
+      "id": 1,
+      "name": "test1",
+      "image":
+        "http://www.smashbros.com/wiiu-3ds/images/character/pikachu/main.png"
+    },
+    {
+      "id": 2,
+      "name": "test2",
+      "image":
+        "http://www.smashbros.com/wiiu-3ds/images/character/pikachu/main.png"
+    },
+    {
+      "id": 3,
+      "name": "test3",
+      "image":
+        "http://www.smashbros.com/wiiu-3ds/images/character/pikachu/main.png"
+    },
+    {
+      "id": 4,
+      "name": "test4",
+      "image":
+        "http://www.smashbros.com/wiiu-3ds/images/character/pikachu/main.png"
     }
 ]
