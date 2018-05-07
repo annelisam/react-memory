@@ -1,15 +1,13 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import "./GameArea.css";
 
 const GameArea = props => 
-<div className="container">
-<Row>
-<Col sm="6">
+<div className="game-area">
+
 
 {props.children}
 
-</Col>
-</Row>
+
 </div>;
 
 export default GameArea;
