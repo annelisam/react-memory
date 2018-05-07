@@ -1,14 +1,18 @@
 import React from 'react'; 
-import {Card, CardImg} from 'reactstrap';
+import { Card, CardImg, CardText, CardBody,
+    CardTitle, CardSubtitle, Button } from 'reactstrap';
+import "./GameCard.css";
 
 const GameCard = props => {
     return (
-        <div>
+        <div className="game-card">
             <Card>
-                <CardImg top width="100%" src="http://via.placeholder.com/300x300" onClick={(props) => props.scorePoints}
+                <CardImg onClick={(props) => props.scorePoints}
+                className="card-img"
+                src={props.image}
                 alt={props.name}
                 title={`${props.name} picture`}
-                src={props.name}
+                // src={props.name}
                 />
             </Card>
         </div>
